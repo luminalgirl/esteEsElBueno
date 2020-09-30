@@ -29,9 +29,6 @@ dependencies {
     // Use JUnit test framework
     testImplementation 'junit:junit:4.12'
     
-    compile project(':mx-gradle-skel') {}
-    
-    
-    //compile project(':Personas') {}
+    implementation project(':mx-gradle-skel') {}
 
 }
