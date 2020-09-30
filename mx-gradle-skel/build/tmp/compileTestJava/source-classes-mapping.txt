@@ -1,0 +1,4 @@
+mx/nic/service/test/controller/PersonControllerTest.java
+ mx.nic.service.test.controller.PersonControllerTest
+mx/nic/service/MxGradleSkelTest.java
+ mx.nic.service.MxGradleSkelTest

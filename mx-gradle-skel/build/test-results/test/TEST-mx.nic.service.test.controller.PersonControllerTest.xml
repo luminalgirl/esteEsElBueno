@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="mx.nic.service.test.controller.PersonControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-09-30T18:05:07" hostname="MacBook-Air-de-Nantzin.local" time="6.813">
+  <properties/>
+  <testcase name="testAdd()" classname="mx.nic.service.test.controller.PersonControllerTest" time="6.741"/>
+  <testcase name="testFindAll()" classname="mx.nic.service.test.controller.PersonControllerTest" time="0.071"/>
+  <system-out><![CDATA[?[36m13:05:03.265?[0;39m ?[1;30m[Test worker]?[0;39m ?[34mINFO ?[0;39m ?[35mi.m.context.env.DefaultEnvironment?[0;39m - Established active environments: [test]
+?[36m13:05:14.369?[0;39m ?[1;30m[http-nio-8100-exec-1]?[0;39m ?[31mWARN ?[0;39m ?[35mio.micronaut.core.reflect.ClassUtils?[0;39m - Request argument binder [io.micronaut.jaxrs.runtime.ext.bind.CookieRequestArgumentBinder@3d279fe] triggered the use of reflection for types []
+]]></system-out>
+  <system-err><![CDATA[sep 30, 2020 1:05:06 P. M. org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8100"]
+sep 30, 2020 1:05:06 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Tomcat]
+sep 30, 2020 1:05:06 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet engine: [Apache Tomcat/9.0.37]
+sep 30, 2020 1:05:07 P. M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8100"]
+sep 30, 2020 1:05:14 P. M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-nio-8100"]
+sep 30, 2020 1:05:14 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Tomcat]
+sep 30, 2020 1:05:14 P. M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-nio-8100"]
+sep 30, 2020 1:05:14 P. M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-nio-8100"]
+]]></system-err>
+</testsuite>

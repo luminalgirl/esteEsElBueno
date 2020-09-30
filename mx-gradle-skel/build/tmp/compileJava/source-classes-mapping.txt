@@ -1,0 +1,6 @@
+mx/nic/service/Application.java
+ mx.nic.service.Application
+mx/nic/service/controller/PersonController.java
+ mx.nic.service.controller.PersonController
+mx/nic/service/model/Person.java
+ mx.nic.service.model.Person
