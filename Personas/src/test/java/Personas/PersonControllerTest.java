@@ -1,13 +1,9 @@
 package mx.nic.service.test.controller;
-
 import java.net.MalformedURLException;
 import java.net.URL;
-
 import javax.inject.Inject;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.client.HttpClient;
 import io.micronaut.runtime.server.EmbeddedServer;
