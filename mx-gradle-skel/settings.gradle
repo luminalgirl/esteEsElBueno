@@ -1,1 +1,3 @@
 rootProject.name="mx-gradle-skel"
+include ':Personas'
+project(':Personas').projectDir = new File(settingsDir, '../Personas')
