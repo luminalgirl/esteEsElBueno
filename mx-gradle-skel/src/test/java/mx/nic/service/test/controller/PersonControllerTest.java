@@ -6,6 +6,7 @@ import java.net.URL;
 import javax.inject.Inject;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import io.micronaut.http.HttpRequest;
@@ -22,6 +23,7 @@ public class PersonControllerTest {
     EmbeddedServer server;
     
     @Test
+    @Disabled
     public void testAdd() throws MalformedURLException {
 		HttpClient client = HttpClient.create(new URL("http://" + server.getHost() + ":" + server.getPort()));
     	Person person = new Person();
@@ -33,6 +35,7 @@ public class PersonControllerTest {
     }
     
     @Test
+    @Disabled
     public void testFindAll() throws MalformedURLException {
         HttpClient client = HttpClient.create(new URL("http://" + server.getHost() + ":" + server.getPort()));
         Person[] persons = client.toBlocking().retrieve(HttpRequest.GET("/person"), Person[].class);
